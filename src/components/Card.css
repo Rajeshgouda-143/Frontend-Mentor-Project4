@@ -1,0 +1,79 @@
+.container{
+    /* padding: 30px; */
+    display: flex;
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    max-width: 600px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.first-part img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.second-part{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.second-part .span{
+    margin-top: 40px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 8px;
+    text-transform:uppercase;
+}
+
+.second-part h1{
+    color:hsl(210, 18%, 22%);
+}
+
+.second-part p{
+    font-size: 17px;
+    color: hsl(158, 42%, 18%);
+    line-height: 25px;
+    /* font-weight: 400; */
+}
+
+.second-part h2{
+    color:hsl(158, 36%, 37%);
+}
+
+.second-part h2 span{
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+button img{
+    margin-right: 15px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    background:hsl(158, 29%, 22%) ;
+}
